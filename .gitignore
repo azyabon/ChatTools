@@ -1,0 +1,8 @@
+# Editor-specific files
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
