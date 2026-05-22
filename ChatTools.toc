@@ -1,11 +1,15 @@
 ## Interface: 120001
 ## Title: ChatTools
-## Notes: Quick chat channel switcher with recent whisper contacts
+## Notes: Quick chat channel switcher
 ## Author: Andrey Azyabin
-## Version: 1.0.0
-## SavedVariables: RecentWhispersDB, ChatToolsSettings
-## X-Curse-Project-ID: 1470688
+## Version: 2.0.2
+## SavedVariables: ChatToolsDB
+## OptionalDeps: Ace3
 
-# Add-On
-ChatTools.lua
-Config.lua
+embeds.xml
+
+Core\Core.lua
+Core\Events.lua
+Core\UI.lua
+
+Config\Options.lua
